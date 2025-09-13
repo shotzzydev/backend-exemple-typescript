@@ -1,0 +1,33 @@
+{
+  "name": "backendexemple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx --env-file .env ./src/index.ts",
+    "dev:dev": "tsx --env-file .env.dev ./src/index.ts",
+    "watch": "tsx --watch --env-file .env ./src/index.ts",
+    "watch:dev": "tsx --watch --env-file .env.dev ./src/index.ts",
+    "start": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotzzydev/backend-exemple-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shotzzydev/backend-exemple-typescript/issues"
+  },
+  "homepage": "https://github.com/shotzzydev/backend-exemple-typescript#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
